@@ -1,0 +1,91 @@
+<html>
+
+<head>
+    <title>Guest List</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+    <center>
+        <div class="topnav">
+            <a class="active" href="#">GUEST LIST</a>
+            <div class="topnav-right">
+                <a href="#rows">Guest Names </a>
+                <a href="#embed">Family Book </a>
+                <a href="#review"> Review Us</a>
+                <a href="#wiki"> WIKIPEDIA </a>
+                <a href="#images"> Images </a>
+            </div>
+        </div>
+        <h3 style="margin-top: 20px; margin-bottom: 20px; ">
+            Guest List
+        </h3>
+
+        <div id="rows">
+
+            <input type="text" placeholder="Enter name" id="name1">
+            <button onclick="submit()" id="submit_button">Submit</button>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+            <hr>
+
+            <div id="display_name">
+            </div>
+            <hr>
+            <div id="Show1">
+                <h3 id="hd1">Guest List</h3>
+                <button onclick="show()" id="show">Show</button>
+                <p id="p1"></p>
+            </div>
+
+            <hr>
+            <button onclick="sorting()" id="sort_button">
+	Sorted List
+</button>
+
+
+            <div id="sorted"></div>
+        </div>
+        <hr>
+        <input type="text" placeholder="Search name" id="s1">&nbsp;
+        <button onclick="searching()" id="srch">Search</button>
+        <p id="p2"></p>
+        <br> <br>
+        <iframe id="embed" src="https://parthgupta25.github.io/Family-book/" height="600px" width="
+        1000px"></iframe>
+
+        <br>
+        <br>
+        <div id="review">
+            <h3>Please write your review freely!!</h3>
+            <br>
+            <input id="rev" type="text" placeholder="write your review here!"> <br>
+            <br>
+            <button id="sub">Submit</button>
+
+        </div>
+
+        <br>
+        <br>
+        <div id="wiki">
+            <img src="https://iotcdn.oss-ap-southeast-1.aliyuncs.com/family.jpg" height="200px" width="350px">
+            <p>Family is a social group made up of parents and their children , a group of people who come from the same ancestor You resemble your mother's side of the family , a group of people living together and a group of things sharing certain characteristics
+                a family of languages.</p>
+            <a href="https://en.wikipedia.org/wiki/Family"><button id="more">Show more</button></a>
+        </div>
+        <br>
+        <br>
+        <div id="images">
+            <a href="https://thumbs.dreamstime.com/b/happy-family-mother-father-children-son-daughter-sunset-nature-150794881.jpg" target="_blank"><img src="https://thumbs.dreamstime.com/b/happy-family-mother-father-children-son-daughter-sunset-nature-150794881.jpg"></a>
+            <a href="https://images.unsplash.com/photo-1511895426328-dc8714191300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZmFtaWx5JTIwZ2V0JTIwdG9nZXRoZXJ8ZW58MHx8MHx8&w=1000&q=80" target="_blank"> <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZmFtaWx5JTIwZ2V0JTIwdG9nZXRoZXJ8ZW58MHx8MHx8&w=1000&q=80"></a>
+            <a href="https://infobodhi.com/wp-content/uploads/2021/06/EWUNsg9UwAMw01q.jpg" target="_blank"><img src="https://infobodhi.com/wp-content/uploads/2021/06/EWUNsg9UwAMw01q.jpg"></a>
+            <h3>Click on images to open in new tab</h3>
+
+        </div>
+    </center>
+
+</body>
+
+</html>
